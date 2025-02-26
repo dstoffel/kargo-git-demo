@@ -4,7 +4,6 @@ metadata:
   name: {{ include "hello.fullname" . }}
   labels:
     {{- include "hello.labels" . | nindent 4 }}
-    mm: aaa
     ok: ok
     aze: aze
 spec:
